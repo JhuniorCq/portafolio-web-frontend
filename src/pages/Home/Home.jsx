@@ -8,11 +8,11 @@ import { FaReact } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
-
+import { IoEyeSharp } from "react-icons/io5";
 
 export const Home = () => {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <div className="home__presentation">
         <div className="home__data">
           <p className="home__greeting">Hola, soy</p>
@@ -21,11 +21,11 @@ export const Home = () => {
         </div>
 
         <div className="home__icons">
-          <BsLinkedin className="home__icon home__icon--linkedin" />
-          <FaGithub className="home__icon" />
+          <a href="https://www.linkedin.com/in/holiver-ccora-quispe-0a0642258" target="_blank"><BsLinkedin className="home__icon home__icon--linkedin" /></a>
+          <a href="https://github.com/JhuniorCq?tab=repositories" target="_blank"><FaGithub className="home__icon home__icon--github" /></a>
           <button className="home__button">
-            <MdOutlineFileDownload className="home__download" />
-            <p>Descargar CV</p>
+            <IoEyeSharp className="home__see" />
+            <p>Ver CV</p>
           </button>
         </div>
       </div>

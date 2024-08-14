@@ -6,10 +6,12 @@
     height: 100vh;
     position: fixed;
     overflow-y: auto;
+    scroll-behavior: smooth;
 }
 
 .background {
     width: 100%;
     min-height: 100vh;
     backdrop-filter: blur(.4rem);
+    background-color: rgba(0, 0, 0, .3);
 }

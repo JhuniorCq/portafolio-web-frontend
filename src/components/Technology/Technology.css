@@ -1,0 +1,14 @@
+.technology {
+    /* border: 1px solid yellow; */
+    height: 60px;
+    cursor: pointer;
+}
+
+.technology img {
+    height: 100%;
+    transition: scale .3s ease-in-out;
+}
+
+.technology img:hover {
+    scale: 1.2;
+}

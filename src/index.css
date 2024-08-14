@@ -4,13 +4,15 @@
   --color-html: #fc490b;
   --color-css: #006bc0;
   --color-js: #f7df1e;
-  --color-linkedin: #0c64c5;
+  --color-linkedin: #006699;
+  --size-title: 2.5rem;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font-poppins);
 }
 
 a {

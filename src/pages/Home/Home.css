@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: space-evenly;
     gap: 50px;
-    font-family: var(--font-poppins);
+    /* font-family: var(--font-poppins); */
 }
 
 .home > * {
@@ -48,17 +48,26 @@
     gap: 12px;
 }
 
+.home__icons a {
+    display: flex;
+}
+
 .home__icons > * {
     border: 1px solid pink;
 }
 
 .home__icon {
     font-size: 2.4rem;
-    transition: scale .3s ease-in-out, box-shadow .3s ease-in-out;
+    cursor: pointer;
+    transition: scale .3s ease-in-out, filter .3s ease-in-out;
 }
 
 .home__icon--linkedin {
     color: var(--color-linkedin);
+}
+
+.home__icon--github {
+    color: white;
 }
 
 .home__button {
@@ -71,17 +80,18 @@
     cursor: pointer;
     border: 1px solid white;
     border-radius: 4px;
-    transition: scale .3s ease-in-out, box-shadow .3s ease-in-out;
+    transition: scale .3s ease-in-out, filter .3s ease-in-out;
     background-color: transparent;
     color: white;
 }
 
 .home__icon:hover, .home__button:hover {
     scale: 1.1;
-    box-shadow: 0 0 10px rgba(250, 250, 250, .4);
+    /* box-shadow: 0 0 10px rgba(250, 250, 250, .4); */
+    filter: drop-shadow(0 0 10px rgba(250, 250, 250, .4));
 }
 
-.home__download {
+.home__see {
     font-size: 1.2rem;
 }
 
@@ -101,8 +111,8 @@
 
 .home__icon-tec--react {
     color: var(--color-react);
-    right: -25px;
-    bottom: 85px;
+    right: -35px;
+    bottom: 90px;
 }
 
 .home__icon-tec--html {
@@ -119,6 +129,6 @@
 
 .home__icon-tec--js {
     color: var(--color-js);
-    right: -10px;
-    top: 0;
+    right: -20px;
+    top: 20px;
 }
