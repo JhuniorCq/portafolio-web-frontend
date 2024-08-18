@@ -1,0 +1,92 @@
+.project {
+    width: 390px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(255, 255, 255, .4);
+    position: relative;
+    cursor: pointer;
+}
+
+.project__box-image {
+    width: 100%;
+    height: 210px;
+    /* border: 1px solid white; */
+}
+
+
+.project__box-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mask-image: linear-gradient(
+        black 95%,
+        transparent
+    );
+}
+
+.project__information {
+    width: 100%;
+    height: 54%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 15px; */
+    padding: 20px 20px 30px;
+}
+
+
+
+.project__description {
+    font-size: .9rem;
+}
+
+.project__technologies {
+    border: 1px solid green;
+    display: flex;
+    gap: 8px;
+}
+
+.project__technologie {
+    height: 25px;
+}
+
+.project__buttons {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    transition: opacity .5s ease-in-out, 
+                backdrop-filter .5s ease-in-out, 
+                z-index .5s ease-in-out, 
+                background-color .5s ease-in-out;
+}
+
+.project:hover .project__buttons {
+    opacity: 1;
+    z-index: 1;
+    backdrop-filter: blur(.4rem);
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.project__button {
+    padding: 6px 12px;
+    font-size: .77rem;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: box-shadow .3s ease-in-out;
+}
+
+.project__button:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, .8);
+}

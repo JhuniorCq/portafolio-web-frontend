@@ -2,8 +2,6 @@ import "./Home.css";
 import avatar from "../../assets/image/avatar.png";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import { MdOutlineFileDownload } from "react-icons/md";
-
 import { FaReact } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
@@ -11,6 +9,11 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { IoEyeSharp } from "react-icons/io5";
 
 export const Home = () => {
+  const handleOpenCV = () => {
+    const pdfPath = "/pdf/CV-Ccora-Quispe-Holiver-Jhunior.pdf";
+    window.open(pdfPath, "_blank");
+  };
+
   return (
     <div className="home" id="home">
       <div className="home__presentation">
@@ -21,9 +24,19 @@ export const Home = () => {
         </div>
 
         <div className="home__icons">
-          <a href="https://www.linkedin.com/in/holiver-ccora-quispe-0a0642258" target="_blank"><BsLinkedin className="home__icon home__icon--linkedin" /></a>
-          <a href="https://github.com/JhuniorCq?tab=repositories" target="_blank"><FaGithub className="home__icon home__icon--github" /></a>
-          <button className="home__button">
+          <a
+            href="https://www.linkedin.com/in/holiver-ccora-quispe-0a0642258"
+            target="_blank"
+          >
+            <BsLinkedin className="home__icon home__icon--linkedin" />
+          </a>
+          <a
+            href="https://github.com/JhuniorCq?tab=repositories"
+            target="_blank"
+          >
+            <FaGithub className="home__icon home__icon--github" />
+          </a>
+          <button className="home__button" onClick={handleOpenCV}>
             <IoEyeSharp className="home__see" />
             <p>Ver CV</p>
           </button>

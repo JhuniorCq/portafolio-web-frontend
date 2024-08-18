@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 190px;
     gap: 40px;
     color: white;
 }
@@ -19,7 +20,7 @@
 }
 
 .technologies__list {
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
