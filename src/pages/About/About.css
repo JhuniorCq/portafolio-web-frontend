@@ -1,41 +1,44 @@
 .about {
-    width: 100%;
-    height: 100vh;
-    border: 1px solid red;
-    padding: 0 190px;
-    display: flex;
-    align-items: center;
-    /* Acá en vez de space-evenly puede ser space-between, pero el padding a la IZQ. y DER. debe auemntar */
-    justify-content: space-between;
-    gap: 50px;
+  width: 100%;
+  height: 100vh;
+  border: 1px solid red;
+  padding: 0 190px;
+  display: flex;
+  align-items: center;
+  /* Acá en vez de space-evenly puede ser space-between, pero el padding a la IZQ. y DER. debe auemntar */
+  justify-content: space-between;
+  gap: 50px;
 }
 
 .about > * {
-    border: 1px solid white;
+  border: 1px solid white;
 }
 
 .about__presentation {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 .about__title {
-    font-size: var(--size-title);
+  font-size: var(--size-title);
+  color: white;
 }
 
+.about__paragraph {
+  color: white;
+}
 
 .about__photo {
-    width: 320px;
-    height: 320px;
-    border-radius: 50%;
-    text-align: center;
-    align-content: center;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  text-align: center;
+  align-content: center;
 }
 
 .about__photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

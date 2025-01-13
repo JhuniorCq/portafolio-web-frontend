@@ -1,26 +1,26 @@
 .projects {
-    width: 100%;
-    min-height: 100vh;
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    color: white;
-    padding: 0 120px;
+  width: 100%;
+  min-height: 100vh;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  color: white;
+  padding: 60px 120px;
 }
 
 .projects__title {
-    font-size: var(--size-title);
+  font-size: var(--size-title);
 }
 
 .projects__list {
-    border: 1px solid green;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 40px;
+  border: 1px solid green;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
 }

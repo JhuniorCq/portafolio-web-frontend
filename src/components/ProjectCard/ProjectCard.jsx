@@ -18,8 +18,9 @@ export const ProjectCard = ({
         <p className="project__description">{description}</p>
         <div className="project__technologies">
           {technologies &&
-            technologies.map((technologie) => (
+            technologies.map((technologie, i) => (
               <img
+                key={i}
                 src={technologie.image}
                 alt={technologie.name}
                 className="project__technologie"
