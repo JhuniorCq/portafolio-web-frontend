@@ -1,6 +1,3 @@
-/* #root {
-} */
-
 .app {
   background-image: url(./assets/image/background.jpg);
   background-repeat: no-repeat;
@@ -10,6 +7,7 @@
   position: fixed;
   overflow-y: auto;
   scroll-behavior: smooth;
+  scroll-padding: var(--navbar-height);
 }
 
 /* 

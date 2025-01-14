@@ -16,6 +16,7 @@ export const Technologies = () => {
   return (
     <div className="technologies" id="technologies">
       <h1 className="technologies__title">Tecnologías</h1>
+
       <ul className="technologies__list">
         <Technology image={html} name="HTML" />
         <Technology image={css} name="CSS" />

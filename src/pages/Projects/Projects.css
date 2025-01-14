@@ -1,14 +1,14 @@
 .projects {
   width: 100%;
   min-height: 100vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 40px;
   color: white;
-  padding: 60px 120px;
+  padding: 60px 190px; /*60px 120px*/
 }
 
 .projects__title {
