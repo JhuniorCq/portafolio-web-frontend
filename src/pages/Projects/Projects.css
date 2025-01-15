@@ -16,7 +16,7 @@
 }
 
 .projects__list {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 100%;
   display: flex;
   justify-content: center;

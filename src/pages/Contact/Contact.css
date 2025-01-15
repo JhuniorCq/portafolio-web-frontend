@@ -46,8 +46,8 @@
 }
 
 .contact__error-message {
-  color: #e20707;
-  font-size: 0.8rem;
+  color: yellow;
+  font-size: 0.75rem;
 }
 
 .contact__button {

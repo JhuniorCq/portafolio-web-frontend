@@ -14,6 +14,8 @@ import mysql from "../assets/icon/mysql.svg";
 import python from "../assets/icon/python.svg";
 import fastapi from "../assets/icon/fastapi.svg";
 
+export const URL_SERVER = "http://localhost:3000";
+
 export const PROJECTS = [
   {
     name: "PokeAPI",

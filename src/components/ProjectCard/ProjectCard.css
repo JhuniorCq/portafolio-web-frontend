@@ -39,9 +39,9 @@
 }
 
 .project__technologies {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: flex;
-  gap: 8px;
+  gap: 10px;
 }
 
 .project__technologie {
