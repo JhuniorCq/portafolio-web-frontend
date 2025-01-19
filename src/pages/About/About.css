@@ -31,8 +31,8 @@
 }
 
 .about__photo {
-  width: 320px;
-  height: 320px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   text-align: center;
   align-content: center;
@@ -44,3 +44,27 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 1380px) {
+  .about {
+    padding: 60px 130px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .about {
+    flex-direction: column;
+    gap: 90px;
+    padding: 60px 120px;
+  }
+
+  .about__presentation {
+    /* display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px; */
+    width: 100%;
+  }
+}
+
+/* TODO: Seguir con el responsive de About */

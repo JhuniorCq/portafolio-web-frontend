@@ -33,6 +33,7 @@ export const About = () => {
           <strong>soluciones digitales impactantes</strong>.
         </p>
       </div>
+
       <div className="about__photo">
         <img src="" alt="Jhunior" />
       </div>
