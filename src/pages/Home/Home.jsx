@@ -20,7 +20,7 @@ export const Home = () => {
         <div className="home__data">
           <p className="home__greeting">Hola, soy</p>
           <h1 className="home__name">Jhunior Ccora</h1>
-          <p className="home__occupation">Frontend Developer</p>
+          <p className="home__occupation">Desarrollador Frontend</p>
         </div>
 
         <div className="home__icons">

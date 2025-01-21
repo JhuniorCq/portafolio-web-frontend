@@ -37,6 +37,7 @@
 
 .home__name {
   font-size: 3.5rem;
+  text-shadow: 0 0 10px #01d8fe;
 }
 
 .home__occupation {
