@@ -12,3 +12,9 @@
 .technology img:hover {
   scale: 1.2;
 }
+
+@media (max-width: 580px) {
+  .technology {
+    height: 55px;
+  }
+}

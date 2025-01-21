@@ -8,11 +8,12 @@
   align-items: center;
   gap: 40px;
   color: white;
-  padding: 60px 190px; /*60px 120px*/
+  padding: 60px 120px; /*60px 120px*/
 }
 
 .projects__title {
-  font-size: var(--size-title);
+  /* font-size: var(--size-title); */
+  font-size: clamp(2rem, 6vw, var(--size-title));
 }
 
 .projects__list {
@@ -23,4 +24,10 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 40px;
+}
+
+@media (max-width: 680px) {
+  .projects {
+    padding: 60px;
+  }
 }

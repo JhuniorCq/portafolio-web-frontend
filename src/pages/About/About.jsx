@@ -1,3 +1,4 @@
+import profilePhoto from "../../assets/image/profile.jpg";
 import "./About.css";
 
 export const About = () => {
@@ -35,7 +36,7 @@ export const About = () => {
       </div>
 
       <div className="about__photo">
-        <img src="" alt="Jhunior" />
+        <img src={profilePhoto} alt="Jhunior" />
       </div>
     </div>
   );

@@ -22,12 +22,14 @@
 }
 
 .about__title {
-  font-size: var(--size-title);
+  /* font-size: var(--size-title); */
+  font-size: clamp(2rem, 6vw, var(--size-title));
   color: white;
 }
 
 .about__paragraph {
   color: white;
+  font-size: clamp(0.95rem, 2.5vw, 1rem);
 }
 
 .about__photo {
@@ -36,7 +38,8 @@
   border-radius: 50%;
   text-align: center;
   align-content: center;
-  border: 1px solid white;
+  border: 1px solid transparent;
+  overflow: hidden;
 }
 
 .about__photo img {
@@ -54,17 +57,57 @@
 @media (max-width: 1180px) {
   .about {
     flex-direction: column;
-    gap: 90px;
+    gap: 110px;
     padding: 60px 120px;
   }
 
   .about__presentation {
-    /* display: flex;
-    flex-direction: column;
-    width: 50%;
-    gap: 15px; */
     width: 100%;
   }
 }
 
-/* TODO: Seguir con el responsive de About */
+@media (max-width: 920px) {
+  .about {
+    gap: 80px;
+  }
+
+  .about__photo {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 780px) {
+  .about {
+    padding: 60px 100px;
+  }
+}
+
+@media (max-width: 680px) {
+  .about__photo {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 580px) {
+  .about {
+    padding: 60px 80px;
+  }
+
+  .about__photo {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 420px) {
+  .about {
+    padding: 60px;
+  }
+
+  .about__photo {
+    width: 230px;
+    height: 230px;
+  }
+}
