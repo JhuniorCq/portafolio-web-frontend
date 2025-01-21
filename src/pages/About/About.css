@@ -1,18 +1,12 @@
 .about {
   width: 100%;
   min-height: 100vh;
-  /* border: 1px solid red; */
   padding: 60px 190px;
   display: flex;
   align-items: center;
-  /* Acá en vez de space-evenly puede ser space-between, pero el padding a la IZQ. y DER. debe auemntar */
   justify-content: space-between;
   gap: 50px;
 }
-
-/* .about > * {
-  border: 1px solid white;
-} */
 
 .about__presentation {
   display: flex;
@@ -22,7 +16,6 @@
 }
 
 .about__title {
-  /* font-size: var(--size-title); */
   font-size: clamp(2rem, 6vw, var(--size-title));
   color: white;
 }

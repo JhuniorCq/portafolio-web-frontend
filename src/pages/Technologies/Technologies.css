@@ -9,15 +9,9 @@
   margin-bottom: 20vh;
   gap: 80px;
   color: white;
-  /* border: 1px solid red; */
 }
 
-/* .technologies > * {
-  border: 1px solid white;
-} */
-
 .technologies__title {
-  /* font-size: var(--size-title); */
   font-size: clamp(2rem, 6vw, var(--size-title));
 }
 

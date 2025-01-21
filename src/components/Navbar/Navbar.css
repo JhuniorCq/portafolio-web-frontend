@@ -18,19 +18,26 @@
   gap: 35px;
 }
 
+.navbar__li--logo a {
+  display: flex;
+}
+
+.navbar__li--logo a img {
+  height: 50px;
+}
+
 .navbar__li {
-  margin-top: 1px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0);
-  transition: border-bottom 0.5s ease-in-out;
+  transition: scale 0.3s ease-in-out;
 }
 
 .navbar__li:hover:not(.navbar__li--logo, .navbar__li--options) {
-  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  scale: 1.1;
 }
 
 .navbar__li a {
   color: white;
   width: 100%;
+  text-shadow: 0 0 10px #01d8fe;
 }
 
 .navbar__li--logo {

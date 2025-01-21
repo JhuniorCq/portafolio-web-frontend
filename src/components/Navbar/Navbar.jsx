@@ -1,4 +1,5 @@
 import { IoReorderThreeOutline } from "react-icons/io5";
+import logo from "../../assets/image/my-logo.png";
 import "./Navbar.css";
 
 export const Navbar = () => {
@@ -8,7 +9,7 @@ export const Navbar = () => {
         <ul className="navbar__list">
           <li className="navbar__li navbar__li--logo" id="logo">
             <a href="#home">
-              <img src="" alt="Logo" />
+              <img src={logo} alt="Logo" />
             </a>
           </li>
           <li className="navbar__li">
@@ -33,10 +34,6 @@ export const Navbar = () => {
           </li>
         </ul>
       </nav>
-
-      {/* <nav clas>
-
-      </nav> */}
     </>
   );
 };
