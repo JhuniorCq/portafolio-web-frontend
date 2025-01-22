@@ -40,7 +40,7 @@ export const PROJECTS = [
         name: "React",
       },
     ],
-    codeLink: "https://github.com/JhuniorCq/proyecto-poke-api.git",
+    frontendCodeLink: "https://github.com/JhuniorCq/proyecto-poke-api.git",
     projectLink: "https://pokeapi-zeta.vercel.app/",
   },
   {
@@ -66,7 +66,7 @@ export const PROJECTS = [
         name: "React",
       },
     ],
-    codeLink: "https://github.com/JhuniorCq/platos-tipicos-peru.git",
+    frontendCodeLink: "https://github.com/JhuniorCq/platos-tipicos-peru.git",
     projectLink: "https://platos-tipicos-peru.vercel.app/",
   },
   {
@@ -100,7 +100,10 @@ export const PROJECTS = [
         name: "FastAPI",
       },
     ],
-    codeLink: "https://github.com/JhuniorCq/proyecto-poke-api.git",
+    frontendCodeLink:
+      "https://github.com/JhuniorCq/policia_vs_ladron_vista.git",
+    backendCodeLink:
+      "https://github.com/JhuniorCq/policia_vs_ladron_servidor.git",
     projectLink: "https://pokeapi-zeta.vercel.app/",
   },
   {
@@ -138,7 +141,8 @@ export const PROJECTS = [
         name: "MySQL",
       },
     ],
-    codeLink: "https://github.com/JhuniorCq/proyecto-poke-api.git",
+    frontendCodeLink: "https://github.com/JhuniorCq/style-hub-frontend.git",
+    backendCodeLink: "https://github.com/JhuniorCq/style-hub-backend.git",
     projectLink: "https://pokeapi-zeta.vercel.app/",
   },
   {
@@ -172,7 +176,10 @@ export const PROJECTS = [
         name: "Express",
       },
     ],
-    codeLink: "https://github.com/JhuniorCq/proyecto-poke-api.git",
+    frontendCodeLink:
+      "https://github.com/JhuniorCq/convertidor-musica-frontend.git",
+    backendCodeLink:
+      "https://github.com/JhuniorCq/convertidor-musica-backend.git",
     projectLink: "https://pokeapi-zeta.vercel.app/",
   },
   {
@@ -198,7 +205,7 @@ export const PROJECTS = [
         name: "React",
       },
     ],
-    codeLink: "https://github.com/JhuniorCq/proyecto-poke-api.git",
-    projectLink: "https://pokeapi-zeta.vercel.app/",
+    frontendCodeLink: "https://github.com/JhuniorCq/proyecto-tic-tac-toe.git",
+    projectLink: "https://proyecto-tic-tac-toe.vercel.app/",
   },
 ];

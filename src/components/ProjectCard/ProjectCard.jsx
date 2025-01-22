@@ -5,7 +5,8 @@ export const ProjectCard = ({
   name,
   description,
   technologies,
-  codeLink,
+  frontendCodeLink,
+  backendCodeLink,
   projectLink,
 }) => {
   return (
@@ -29,13 +30,30 @@ export const ProjectCard = ({
         </div>
       </div>
 
-      <div className="project__buttons">
-        <a href={codeLink} target="_blank" className="project__button">
-          Ver código
-        </a>
-        <a href={projectLink} target="_blank" className="project__button">
-          Ver proyecto
-        </a>
+      <div className="project__box-buttons">
+        <div className="project__buttons">
+          {frontendCodeLink && (
+            <a
+              href={frontendCodeLink}
+              target="_blank"
+              className="project__button"
+            >
+              Ver código del frontend
+            </a>
+          )}
+          {backendCodeLink && (
+            <a
+              href={backendCodeLink}
+              target="_blank"
+              className="project__button"
+            >
+              Ver código del backend
+            </a>
+          )}
+          <a href={projectLink} target="_blank" className="project__button">
+            Ver proyecto
+          </a>
+        </div>
       </div>
     </div>
   );

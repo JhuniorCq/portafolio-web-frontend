@@ -14,7 +14,8 @@ export const Projects = () => {
             name={project.name}
             description={project.description}
             technologies={project.technologies}
-            codeLink={project.codeLink}
+            frontendCodeLink={project.frontendCodeLink}
+            backendCodeLink={project.backendCodeLink}
             projectLink={project.projectLink}
           />
         ))}
