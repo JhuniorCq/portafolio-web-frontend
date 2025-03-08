@@ -1,5 +1,6 @@
-import "./Technology.css";
 import { Tooltip } from "react-tooltip";
+import PropTypes from "prop-types";
+import "./Technology.css";
 
 export const Technology = ({ image, name }) => {
   return (
@@ -10,4 +11,9 @@ export const Technology = ({ image, name }) => {
       </Tooltip>
     </li>
   );
+};
+
+Technology.propTypes = {
+  image: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
 };

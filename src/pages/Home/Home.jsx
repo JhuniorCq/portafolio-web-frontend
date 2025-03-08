@@ -1,10 +1,7 @@
 import "./Home.css";
 import avatar from "../../assets/image/avatar.png";
 import { BsLinkedin } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { FaHtml5 } from "react-icons/fa";
+import { FaGithub, FaReact, FaCss3Alt, FaHtml5 } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
 import { IoEyeSharp } from "react-icons/io5";
 
@@ -30,10 +27,7 @@ export const Home = () => {
           >
             <BsLinkedin className="home__icon home__icon--linkedin" />
           </a>
-          <a
-            href="https://github.com/JhuniorCq?tab=repositories"
-            target="_blank"
-          >
+          <a href="https://github.com/JhuniorCq" target="_blank">
             <FaGithub className="home__icon home__icon--github" />
           </a>
           <button className="home__button" onClick={handleOpenCV}>

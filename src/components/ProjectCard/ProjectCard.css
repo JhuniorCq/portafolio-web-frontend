@@ -1,6 +1,6 @@
 .project {
-  width: 390px;
-  min-height: 430px;
+  width: 410px;
+  min-height: 445px;
   display: flex;
   flex-direction: column;
   border-radius: 15px;
@@ -35,10 +35,6 @@
 
 .project__description {
   font-size: 0.9rem;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
 }
 
 .project__technologies {
@@ -91,4 +87,10 @@
 
 .project__button:hover {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 680px) {
+  .project {
+    width: 390px;
+  }
 }

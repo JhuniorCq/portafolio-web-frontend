@@ -1,5 +1,5 @@
 import "./App.css";
-import { Navbar } from "./components/Navbar/Navbar";
+import { Header } from "./components/Header/Header";
 import { About } from "./pages/About/About";
 import { Contact } from "./pages/Contact/Contact";
 import { Home } from "./pages/Home/Home";
@@ -8,9 +8,8 @@ import { Technologies } from "./pages/Technologies/Technologies";
 
 function App() {
   return (
-    // El #root es mi contenedor principal, ahí colocaré la imagen de fondo
     <div className="app">
-      <Navbar />
+      <Header />
       <Home />
       <About />
       <Technologies />

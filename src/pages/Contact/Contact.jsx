@@ -21,7 +21,6 @@ export const Contact = () => {
   const { responsePost, loadingPost, errorPost, postData } = usePost();
 
   const onSubmit = async (data) => {
-    console.log("Los datos a enviar son: ", data);
     await postData({
       url: `${URL_SERVER}/email/send`,
       body: {

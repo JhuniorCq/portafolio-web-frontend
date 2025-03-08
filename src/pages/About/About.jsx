@@ -8,7 +8,7 @@ export const About = () => {
         <h1 className="about__title">Sobre mí</h1>
         <p className="about__paragraph">
           Mi nombre es <strong>Holiver Jhunior Ccora Quispe</strong>,
-          desarrollador web <strong>frontend</strong> con conocimientos en
+          desarrollador web <strong>frontend</strong> con conocimientos en{" "}
           <strong>backend</strong>. Actualmente curso el noveno ciclo de
           <strong>Ingeniería de Software</strong> en la{" "}
           <strong>Universidad Nacional Mayor de San Marcos</strong>, donde he

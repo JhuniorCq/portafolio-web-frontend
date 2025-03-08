@@ -22,7 +22,7 @@ export const PROJECTS = [
     name: "PokeAPI",
     image: pokeAPI,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt rerum minima quaerat vel quibusdam est? Voluptatibus",
+      "Una web que permite a los usuarios explorar todos los Pokémon y ver sus estadísticas detalladas en tiempo real, obteniendo la información desde la API pública de Pokémon.",
     technologies: [
       {
         image: html,
@@ -48,7 +48,7 @@ export const PROJECTS = [
     name: "Miskito",
     image: miskito,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt rerum minima quaerat vel quibusdam est? Voluptatibus",
+      "Una web sobre los platos típicos del Perú, con un chatbot interactivo impulsado por la IA 'Gemini' para ayudar a los usuarios a descubrir recetas y aprender sobre la gastronomía peruana.",
     technologies: [
       {
         image: html,
@@ -74,7 +74,7 @@ export const PROJECTS = [
     name: "Policía vs Ladrón",
     image: policiaVsLadron,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt rerum minima quaerat vel quibusdam est? Voluptatibus",
+      "Un juego interactivo basado en IA donde los jugadores pueden elegir ser policía o ladrón, con movimientos determinados por algoritmos de inteligencia artificial para aumentar el desafío.",
     technologies: [
       {
         image: html,
@@ -105,13 +105,13 @@ export const PROJECTS = [
       "https://github.com/JhuniorCq/policia_vs_ladron_vista.git",
     backendCodeLink:
       "https://github.com/JhuniorCq/policia_vs_ladron_servidor.git",
-    projectLink: "https://pokeapi-zeta.vercel.app/",
+    projectLink: null,
   },
   {
     name: "StyleHub",
     image: styleHub,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt rerum minima quaerat vel quibusdam est? Voluptatibus",
+      "Un e-commerce de ropa con todas las funciones esenciales, incluyendo pasarela de pagos con PayPal y una experiencia de usuario fluida para comprar moda en línea.",
     technologies: [
       {
         image: html,
@@ -144,13 +144,13 @@ export const PROJECTS = [
     ],
     frontendCodeLink: "https://github.com/JhuniorCq/style-hub-frontend.git",
     backendCodeLink: "https://github.com/JhuniorCq/style-hub-backend.git",
-    projectLink: "https://pokeapi-zeta.vercel.app/",
+    projectLink: null,
   },
   {
     name: "Convertidor de Música",
     image: convertidorYoutubeMp3,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt rerum minima quaerat vel quibusdam est? Voluptatibus",
+      "Una página web que permite a los usuarios convertir videos de YouTube a formato MP3 y descargarlos, facilitando el acceso a música offline.",
     technologies: [
       {
         image: html,
@@ -181,13 +181,13 @@ export const PROJECTS = [
       "https://github.com/JhuniorCq/convertidor-musica-frontend.git",
     backendCodeLink:
       "https://github.com/JhuniorCq/convertidor-musica-backend.git",
-    projectLink: "https://pokeapi-zeta.vercel.app/",
+    projectLink: null,
   },
   {
     name: "Tic Tac Toe",
     image: ticTacToe,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti deserunt rerum minima quaerat vel quibusdam est? Voluptatibus",
+      "El clásico juego Tic Tac Toe en línea, donde los usuarios pueden jugar contra otra persona en tiempo real.",
     technologies: [
       {
         image: html,

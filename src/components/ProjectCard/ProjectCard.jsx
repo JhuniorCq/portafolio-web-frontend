@@ -1,4 +1,5 @@
 import "./ProjectCard.css";
+import PropTypes from "prop-types";
 
 export const ProjectCard = ({
   image,
@@ -18,15 +19,14 @@ export const ProjectCard = ({
         <h2 className="project__title">{name}</h2>
         <p className="project__description">{description}</p>
         <div className="project__technologies">
-          {technologies &&
-            technologies.map((technologie, i) => (
-              <img
-                key={i}
-                src={technologie.image}
-                alt={technologie.name}
-                className="project__technologie"
-              />
-            ))}
+          {technologies?.map((technologie) => (
+            <img
+              key={crypto.randomUUID()}
+              src={technologie.image}
+              alt={technologie.name}
+              className="project__technologie"
+            />
+          ))}
         </div>
       </div>
 
@@ -50,11 +50,23 @@ export const ProjectCard = ({
               Ver código del backend
             </a>
           )}
-          <a href={projectLink} target="_blank" className="project__button">
-            Ver proyecto
-          </a>
+          {projectLink && (
+            <a href={projectLink} target="_blank" className="project__button">
+              Ver web del proyecto
+            </a>
+          )}
         </div>
       </div>
     </div>
   );
+};
+
+ProjectCard.propTypes = {
+  image: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  technologies: PropTypes.array.isRequired,
+  frontendCodeLink: PropTypes.string.isRequired,
+  backendCodeLink: PropTypes.string,
+  projectLink: PropTypes.string,
 };

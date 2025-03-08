@@ -1,39 +1,30 @@
-import { IoReorderThreeOutline } from "react-icons/io5";
-import logo from "../../assets/image/my-logo.png";
+import PropTypes from "prop-types";
 import "./Navbar.css";
 
-export const Navbar = () => {
+export const Navbar = ({ mobile = false }) => {
   return (
-    <>
-      <nav className="navbar">
-        <ul className="navbar__list">
-          <li className="navbar__li navbar__li--logo" id="logo">
-            <a href="#home">
-              <img src={logo} alt="Logo" />
-            </a>
-          </li>
-          <li className="navbar__li">
-            <a href="#home">Inicio</a>
-          </li>
-          <li className="navbar__li">
-            <a href="#about">Sobre mí</a>
-          </li>
-          <li className="navbar__li">
-            <a href="#technologies">Tecnologías</a>
-          </li>
-          <li className="navbar__li">
-            <a href="#projects">Proyectos</a>
-          </li>
-          <li className="navbar__li">
-            <a href="#contact">Contáctame</a>
-          </li>
-          <li className="navbar__li navbar__li--options">
-            <button className="navbar__options-button">
-              <IoReorderThreeOutline className="" />
-            </button>
-          </li>
-        </ul>
-      </nav>
-    </>
+    <nav className="navbar">
+      <ul className={mobile ? "navbar__list--mobile" : "navbar__list"}>
+        <li className={mobile ? "navbar__li--mobile" : "navbar__li"}>
+          <a href="#home">Inicio</a>
+        </li>
+        <li className={mobile ? "navbar__li--mobile" : "navbar__li"}>
+          <a href="#about">Sobre mí</a>
+        </li>
+        <li className={mobile ? "navbar__li--mobile" : "navbar__li"}>
+          <a href="#technologies">Tecnologías</a>
+        </li>
+        <li className={mobile ? "navbar__li--mobile" : "navbar__li"}>
+          <a href="#projects">Proyectos</a>
+        </li>
+        <li className={mobile ? "navbar__li--mobile" : "navbar__li"}>
+          <a href="#contact">Contáctame</a>
+        </li>
+      </ul>
+    </nav>
   );
+};
+
+Navbar.propTypes = {
+  mobile: PropTypes.bool,
 };

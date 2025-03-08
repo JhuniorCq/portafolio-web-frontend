@@ -9,7 +9,7 @@ export const Projects = () => {
       <div className="projects__list">
         {PROJECTS.map((project, i) => (
           <ProjectCard
-            key={i}
+            key={crypto.randomUUID()}
             image={project.image}
             name={project.name}
             description={project.description}
