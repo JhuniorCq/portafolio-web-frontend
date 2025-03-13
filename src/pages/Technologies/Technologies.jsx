@@ -4,6 +4,7 @@ import html from "../../assets/icon/html.svg";
 import css from "../../assets/icon/css.svg";
 import javascript from "../../assets/icon/javascript.svg";
 import react from "../../assets/icon/react.svg";
+import tailwind from "../../assets/icon/tailwind.svg";
 import nodejs from "../../assets/icon/nodejs.svg";
 import express from "../../assets/icon/express.svg";
 import git from "../../assets/icon/git.svg";
@@ -22,6 +23,7 @@ export const Technologies = () => {
         <Technology image={css} name="CSS" />
         <Technology image={javascript} name="JavaScript" />
         <Technology image={react} name="React" />
+        <Technology image={tailwind} name="Tailwind CSS" />
         <Technology image={nodejs} name="Node.js" />
         <Technology image={express} name="Express.js" />
         <Technology image={mysql} name="MySQL" />
