@@ -7,7 +7,7 @@ import { IoEyeSharp } from "react-icons/io5";
 
 export const Home = () => {
   const handleOpenCV = () => {
-    const pdfPath = "/pdf/CV-Ccora-Quispe-Holiver-Jhunior.pdf";
+    const pdfPath = "/pdf/CV-Holiver-Jhunior-Ccora-Quispe.pdf";
     window.open(pdfPath, "_blank");
   };
 
