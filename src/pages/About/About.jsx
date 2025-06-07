@@ -16,13 +16,14 @@ export const About = () => {
           por resolver problemas con <strong>tecnología</strong>.
         </p>
         <p className="about__paragraph">
-          Me especializo en el desarrollo <strong>frontend</strong>, empleando
+          Me especializo en el desarrollo <strong>frontend</strong>, empleando{" "}
           <strong>HTML</strong>, <strong>CSS</strong>,{" "}
-          <strong>JavaScript</strong> y <strong>React</strong>, creando
-          interfaces atractivas y funcionales. En el <strong>backend</strong>,
-          mis principales fortalezas son <strong>Node.js</strong>,{" "}
-          <strong>Express</strong> y <strong>MySQL</strong>, lo que me permite
-          colaborar en proyectos de manera completa.
+          <strong>JavaScript</strong>, <strong>Typescript</strong> y{" "}
+          <strong>React</strong>, creando interfaces atractivas y funcionales.
+          En el <strong>backend</strong>, mis principales fortalezas son{" "}
+          <strong>Node.js</strong>, <strong>Express</strong> y{" "}
+          <strong>MySQL</strong>, lo que me permite colaborar en proyectos de
+          manera completa.
         </p>
         <p className="about__paragraph">
           He trabajado en proyectos <strong>personales</strong> y para{" "}

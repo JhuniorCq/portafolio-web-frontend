@@ -12,6 +12,7 @@ import github from "../../assets/icon/github.svg";
 import python from "../../assets/icon/python.svg";
 import mysql from "../../assets/icon/mysql.svg";
 import postgresql from "../../assets/icon/postgresql.svg";
+import typescript from "../../assets/icon/typescript.svg";
 
 export const Technologies = () => {
   return (
@@ -22,6 +23,7 @@ export const Technologies = () => {
         <Technology image={html} name="HTML" />
         <Technology image={css} name="CSS" />
         <Technology image={javascript} name="JavaScript" />
+        <Technology image={typescript} name="Typescript" />
         <Technology image={react} name="React" />
         <Technology image={tailwind} name="Tailwind CSS" />
         <Technology image={nodejs} name="Node.js" />
