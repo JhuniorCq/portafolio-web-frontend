@@ -15,7 +15,7 @@ import python from "../assets/icon/python.svg";
 import fastapi from "../assets/icon/fastapi.svg";
 
 export const URL_SERVER =
-  "https://portafolio-web-backend-production.up.railway.app";
+  "https://portafolio-web-backend-solitary-dawn-9347.fly.dev";
 
 export const PROJECTS = [
   {
